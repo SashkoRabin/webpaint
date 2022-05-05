@@ -1,1 +1,8 @@
-{}
+{
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  },
+  "scripts": {
+    "start": "concurrently 'client/npm start' 'server/npm run dev'"
+  }
+}
